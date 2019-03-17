@@ -1,0 +1,11 @@
+# Site settings
+title: Sample Jekyll Site With Bootstrap 4
+email: patrick@theonevehicle.com
+author: Patrick Dunn
+description: A sample site to test Bootstrap 4 integration.
+url: tdb
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
