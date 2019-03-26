@@ -1,14 +1,19 @@
 # Site settings
-title: Sample Jekyll Site With Bootstrap 4
+title: Pentel Australia
 email: patrick@theonevehicle.com
 author: Patrick Dunn
-description: A sample site to test Bootstrap 4 integration.
+description: Pentel Australia's Public Website
 url: tdb
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
+
+#collections
+collections:
+  refills:
+    output: true
 
 # Social icons
 show_social_icons: true
@@ -18,3 +23,4 @@ twitter_username: someTwitterUser
 # plugins
 plugins: [jekyll-paginate]
 paginate: 3
+
